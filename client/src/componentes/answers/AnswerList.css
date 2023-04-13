@@ -1,0 +1,68 @@
+.answerListContainer {
+    margin-top: 1em;
+}
+
+.singleAnswer {
+    margin: 1em 0;
+    box-shadow: .5em .5em 2em #4c4d4e;
+    padding: .5em;
+    border-radius: .5em;
+}
+
+.buttonAction:disabled {
+    background-color: #82c1ff;
+    border: 1px solid #82c1ff;
+}
+
+.buttonCancel:disabled {
+    background-color: #b36969;
+    border: 1px solid #b36969;
+}
+
+.singleAnswerTitle {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ratingContainer {
+    display: flex;
+    align-items: center;
+    gap: 2%;
+    width: 100%;
+}
+
+.singleAnswerInfo {
+    width: 32em;
+}
+
+.voteText {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.voteText img {
+    margin-right: .2em;
+}
+
+.voteLike {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.voteLike img {
+    margin-left: .4em;
+}
+
+.personalRating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ratingLikeContainer {
+    display: flex;
+    gap: 4%;
+}

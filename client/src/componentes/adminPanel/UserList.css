@@ -1,0 +1,27 @@
+.avatar {
+    width: 4em;
+}
+
+.donation {
+    width: 4em;
+    margin-right: 1em;
+}
+.userPropertiesColumns {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 1em;
+}
+
+.singleUserTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filterSelect label{
+    margin-right: 1em;
+}
+
+.radioInput {
+    margin-right: .2em;
+}
